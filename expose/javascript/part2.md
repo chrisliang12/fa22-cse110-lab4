@@ -106,3 +106,11 @@ true, since `Boolean(2)` is true. Note that only `Boolean(0)` is false
 see [part2-question16.js](part2-question16.js)
 
 # Q17
+- Result: [ 2, 4, 6 ]
+- when calling `modifyArray()` we pass in a callback function. In the for loop, when pushing the `array[i]` to the new Array, the `array[i]` will be first processed by the callback function, which means we are pushing the result of `doSomething(array[i])` to the `newArr`. Thus, the result should be `[2,4,6]`  
+
+# Q18
+see [part2-question18.js](part2-question18.js)
+
+# Q19
+The result should be in the order 1,4,3,2
