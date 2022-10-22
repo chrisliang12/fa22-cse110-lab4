@@ -63,7 +63,7 @@ student.courseLoad[0]
 3, `null` can be converted to `Number` and its value is 0
 
 ### D
-`"3null"`, 
+`"3null"`, `null` maps to the string 'null'
 
 ### E
 4, true maps to 1
